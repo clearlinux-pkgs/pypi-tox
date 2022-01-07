@@ -30,6 +30,7 @@ BuildRequires : pypi(virtualenv)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
 Provides: tox
+Provides: tox-python
 
 %description
 [![PyPI](https://img.shields.io/pypi/v/tox?style=flat-square)](https://pypi.org/project/tox/)
