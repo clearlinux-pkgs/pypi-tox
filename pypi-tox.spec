@@ -4,7 +4,7 @@
 #
 Name     : pypi-tox
 Version  : 3.24.5
-Release  : 141
+Release  : 143
 URL      : https://files.pythonhosted.org/packages/6c/0e/b9789bd4eee8cc8adfb8127730a13dfcf2d5cc7c419da904cf6fbf459d37/tox-3.24.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6c/0e/b9789bd4eee8cc8adfb8127730a13dfcf2d5cc7c419da904cf6fbf459d37/tox-3.24.5.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
@@ -14,7 +14,7 @@ Requires: pypi-tox-bin = %{version}-%{release}
 Requires: pypi-tox-license = %{version}-%{release}
 Requires: pypi-tox-python = %{version}-%{release}
 Requires: pypi-tox-python3 = %{version}-%{release}
-Requires: importlib_metadata
+Requires: pypi(importlib_metadata)
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(colorama)
 BuildRequires : pypi(filelock)
@@ -22,13 +22,13 @@ BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(packaging)
 BuildRequires : pypi(pluggy)
 BuildRequires : pypi(py)
+BuildRequires : pypi(pytest)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(six)
 BuildRequires : pypi(toml)
 BuildRequires : pypi(virtualenv)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
 Provides: tox
 Provides: tox-python
 
@@ -97,7 +97,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641516820
+export SOURCE_DATE_EPOCH=1641544303
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
