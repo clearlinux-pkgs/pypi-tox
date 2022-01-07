@@ -29,6 +29,7 @@ BuildRequires : pypi(toml)
 BuildRequires : pypi(virtualenv)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
+Provides: tox
 
 %description
 [![PyPI](https://img.shields.io/pypi/v/tox?style=flat-square)](https://pypi.org/project/tox/)
