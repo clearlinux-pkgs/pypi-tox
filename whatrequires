@@ -30,7 +30,6 @@ pypi-altgraph
 pypi-ansi2html
 pypi-ansible_compat
 pypi-anyio
-pypi-apipkg
 pypi-appdirs
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
@@ -124,11 +123,13 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-ovirt_imageio
 pypi-paste
 pypi-patsy
 pypi-pep517
 pypi-perl
 pypi-persistent
+pypi-pip_tools
 pypi-pkginfo
 pypi-platformdirs
 pypi-portend
@@ -180,11 +181,14 @@ pypi-sphinxcontrib_applehelp
 pypi-sphinxcontrib_devhelp
 pypi-sphinxcontrib_htmlhelp
 pypi-sphinxcontrib_jsmath
+pypi-sphinxcontrib_openapi
 pypi-sphinxcontrib_programoutput
 pypi-sphinxcontrib_qthelp
+pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
+pypi-sqlparse
 pypi-stack_data
 pypi-statsmodels
 pypi-subprocess_tee
