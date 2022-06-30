@@ -164,6 +164,7 @@ pypi-readme_renderer
 pypi-repoze.lru
 pypi-requests_toolbelt
 pypi-retry
+pypi-retype
 pypi-salib
 pypi-selectors2
 pypi-selectors34
