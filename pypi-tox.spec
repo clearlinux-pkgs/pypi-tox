@@ -4,7 +4,7 @@
 #
 Name     : pypi-tox
 Version  : 3.25.1
-Release  : 148
+Release  : 149
 URL      : https://files.pythonhosted.org/packages/52/cb/16711c38f6503e8cd8c691a7b5500364fb0d7ee32a79fc3f8929968cd519/tox-3.25.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/cb/16711c38f6503e8cd8c691a7b5500364fb0d7ee32a79fc3f8929968cd519/tox-3.25.1.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
