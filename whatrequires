@@ -143,7 +143,6 @@ pypi-portend
 pypi-prettytable
 pypi-pure_eval
 pypi-pybtex
-pypi-pycares
 pypi-pydot_ng
 pypi-pyelftools
 pypi-pyjwt
@@ -171,6 +170,7 @@ pypi-repoze.lru
 pypi-requests_toolbelt
 pypi-retry
 pypi-retype
+pypi-scrypt
 pypi-selectors2
 pypi-selectors34
 pypi-selinux
@@ -235,3 +235,4 @@ python-utils
 python-zeep
 pyudev
 scour
+sshuttle
