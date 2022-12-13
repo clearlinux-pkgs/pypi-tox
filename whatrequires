@@ -151,6 +151,7 @@ pypi-pynacl
 pypi-pynsist
 pypi-pyopenssl
 pypi-pyperf
+pypi-pyproject_api
 pypi-pytest_asyncio
 pypi-pytest_cov
 pypi-pytest_forked
