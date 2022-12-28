@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 MarkupSafe
-PyMySQL
 PySocks
 borgbackup
 boto3
