@@ -71,7 +71,6 @@ pypi-execnet
 pypi-executing
 pypi-falcon
 pypi-fastimport
-pypi-filelock
 pypi-flake8_docstrings
 pypi-flask
 pypi-flit
@@ -137,7 +136,6 @@ pypi-perl
 pypi-persistent
 pypi-pip_tools
 pypi-pkginfo
-pypi-platformdirs
 pypi-portend
 pypi-prettytable
 pypi-pure_eval
@@ -233,6 +231,5 @@ python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
-pyudev
 scour
 sshuttle
