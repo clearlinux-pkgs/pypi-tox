@@ -209,6 +209,7 @@ pypi-unidecode
 pypi-urlobject
 pypi-userpath
 pypi-waitress
+pypi-watchdog
 pypi-webcolors
 pypi-webob
 pypi-werkzeug
