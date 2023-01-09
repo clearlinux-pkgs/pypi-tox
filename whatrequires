@@ -94,7 +94,6 @@ pypi-importlib_metadata
 pypi-importlib_resources
 pypi-incremental
 pypi-inflect
-pypi-iniconfig
 pypi-jaraco.classes
 pypi-jaraco.collections
 pypi-jaraco.context
