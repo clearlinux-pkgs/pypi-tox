@@ -133,6 +133,7 @@ pypi-patsy
 pypi-pep517
 pypi-perl
 pypi-persistent
+pypi-picobox
 pypi-pip_tools
 pypi-pkginfo
 pypi-portend
