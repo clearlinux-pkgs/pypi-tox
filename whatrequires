@@ -125,6 +125,7 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-ordered_set
 pypi-ovirt_imageio
 pypi-paste
 pypi-pastedeploy
