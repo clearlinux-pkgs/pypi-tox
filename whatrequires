@@ -141,7 +141,6 @@ pypi-patsy
 pypi-pep517
 pypi-perl
 pypi-persistent
-pypi-picobox
 pypi-pip_tools
 pypi-pkginfo
 pypi-plaster
@@ -223,6 +222,7 @@ pypi-unidecode
 pypi-urlobject
 pypi-userpath
 pypi-venusian
+pypi-versioneer
 pypi-waitress
 pypi-watchdog
 pypi-webcolors
