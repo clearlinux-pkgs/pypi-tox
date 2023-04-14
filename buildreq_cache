@@ -1,8 +1,9 @@
-4.4.11
+4.4.12
 pypi(cachetools)
 pypi(chardet)
 pypi(devpi_process)
 pypi(distlib)
+pypi(filelock)
 pypi(hatchling)
 pypi(pyproject_api)
 pypi(pytest_mock)

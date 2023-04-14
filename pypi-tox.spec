@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-tox
-Version  : 4.4.11
-Release  : 187
-URL      : https://files.pythonhosted.org/packages/b4/36/1cde454b0e34af1c5df419300359b5dd993fa815da395a530d0ba1e97104/tox-4.4.11.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b4/36/1cde454b0e34af1c5df419300359b5dd993fa815da395a530d0ba1e97104/tox-4.4.11.tar.gz
+Version  : 4.4.12
+Release  : 188
+URL      : https://files.pythonhosted.org/packages/47/0c/c99dcd47a06cc29c95315a6857de932dfc42edd8bcb53825545279eb4130/tox-4.4.12.tar.gz
+Source0  : https://files.pythonhosted.org/packages/47/0c/c99dcd47a06cc29c95315a6857de932dfc42edd8bcb53825545279eb4130/tox-4.4.12.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
 Group    : Development/Tools
 License  : MIT
@@ -21,6 +21,7 @@ BuildRequires : pypi(cachetools)
 BuildRequires : pypi(chardet)
 BuildRequires : pypi(devpi_process)
 BuildRequires : pypi(distlib)
+BuildRequires : pypi(filelock)
 BuildRequires : pypi(hatchling)
 BuildRequires : pypi(pyproject_api)
 BuildRequires : pypi(pytest_mock)
@@ -86,10 +87,10 @@ python3 components for the pypi-tox package.
 
 
 %prep
-%setup -q -n tox-4.4.11
-cd %{_builddir}/tox-4.4.11
+%setup -q -n tox-4.4.12
+cd %{_builddir}/tox-4.4.12
 pushd ..
-cp -a tox-4.4.11 buildavx2
+cp -a tox-4.4.12 buildavx2
 popd
 
 %build
@@ -97,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680794504
+export SOURCE_DATE_EPOCH=1681492671
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
