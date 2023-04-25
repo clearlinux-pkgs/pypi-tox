@@ -108,6 +108,7 @@ pypi-jarn.viewdoc
 pypi-javaproperties
 pypi-josepy
 pypi-jsonpickle
+pypi-jupyter_cache
 pypi-khal
 pypi-kubernetes
 pypi-lazy
@@ -142,6 +143,7 @@ pypi-pep517
 pypi-perl
 pypi-persistent
 pypi-pip_tools
+pypi-pipdeptree
 pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
@@ -225,6 +227,7 @@ pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
+pypi-wcmatch
 pypi-webcolors
 pypi-webob
 pypi-werkzeug
