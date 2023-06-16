@@ -1,4 +1,4 @@
-4.6.0
+4.6.1
 pypi(cachetools)
 pypi(chardet)
 pypi(colorama)
@@ -6,6 +6,5 @@ pypi(devpi_process)
 pypi(distlib)
 pypi(filelock)
 pypi(pyproject_api)
-pypi(pytest_mock)
 pypi(virtualenv)
 pypi-pytest
