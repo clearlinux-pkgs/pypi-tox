@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-tox
-Version  : 4.9.0
-Release  : 199
-URL      : https://files.pythonhosted.org/packages/4c/41/2de7acd8153e06edce38b60d5b782f7922d93c4708ac70ec3f849970087f/tox-4.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/4c/41/2de7acd8153e06edce38b60d5b782f7922d93c4708ac70ec3f849970087f/tox-4.9.0.tar.gz
+Version  : 4.10.0
+Release  : 200
+URL      : https://files.pythonhosted.org/packages/09/8e/33dc3c5078db5ee7f0c452f353f00f0b77801d0b2acaf8c461a7e26e0705/tox-4.10.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/09/8e/33dc3c5078db5ee7f0c452f353f00f0b77801d0b2acaf8c461a7e26e0705/tox-4.10.0.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
 Group    : Development/Tools
 License  : MIT
@@ -37,7 +37,7 @@ BuildRequires : pypi-pytest
 [![PyPI](https://img.shields.io/pypi/v/tox)](https://pypi.org/project/tox/)
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/tox.svg)](https://pypi.org/project/tox/)
-[![Downloads](https://pepy.tech/badge/tox/month)](https://pepy.tech/project/tox)
+[![Downloads](https://static.pepy.tech/badge/tox/month)](https://pepy.tech/project/tox)
 [![Documentation
 status](https://readthedocs.org/projects/tox/badge/?version=latest)](https://tox.readthedocs.io/en/latest/?badge=latest)
 [![check](https://github.com/tox-dev/tox/actions/workflows/check.yml/badge.svg)](https://github.com/tox-dev/tox/actions/workflows/check.yml)
@@ -88,10 +88,10 @@ python3 components for the pypi-tox package.
 
 
 %prep
-%setup -q -n tox-4.9.0
-cd %{_builddir}/tox-4.9.0
+%setup -q -n tox-4.10.0
+cd %{_builddir}/tox-4.10.0
 pushd ..
-cp -a tox-4.9.0 buildavx2
+cp -a tox-4.10.0 buildavx2
 popd
 
 %build
@@ -99,7 +99,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692232430
+export SOURCE_DATE_EPOCH=1692653527
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
