@@ -51,6 +51,7 @@ pypi-booleanoperations
 pypi-bracex
 pypi-cachetools
 pypi-cffsubr
+pypi-check_jsonschema
 pypi-check_manifest
 pypi-cheetah3
 pypi-cheroot
@@ -79,6 +80,7 @@ pypi-execnet
 pypi-executing
 pypi-falcon
 pypi-fastimport
+pypi-filelock
 pypi-fixtures
 pypi-flake8_docstrings
 pypi-flask
@@ -166,7 +168,6 @@ pypi-pydot_ng
 pypi-pyelftools
 pypi-pygithub
 pypi-pyjwt
-pypi-pymdown_extensions
 pypi-pynacl
 pypi-pynsist
 pypi-pyopenssl
