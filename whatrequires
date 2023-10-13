@@ -151,6 +151,7 @@ pypi-paste
 pypi-pastedeploy
 pypi-pathspec
 pypi-patsy
+pypi-pdm
 pypi-pep517
 pypi-perl
 pypi-persistent
@@ -160,6 +161,7 @@ pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
 pypi-platformdirs
+pypi-portalocker
 pypi-portend
 pypi-prettytable
 pypi-pure_eval
@@ -236,13 +238,14 @@ pypi-uharfbuzz
 pypi-unidecode
 pypi-uritools
 pypi-urlobject
+pypi-urwid
 pypi-userpath
 pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
 pypi-wcmatch
-pypi-webcolors
+pypi-wcwidth
 pypi-webob
 pypi-werkzeug
 pypi-wsgiproxy2
