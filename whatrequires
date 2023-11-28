@@ -19,7 +19,6 @@ mod_wsgi
 multiprocess
 mypy
 nose-parameterized
-ntlm-auth
 pathos
 pox
 ppft
@@ -50,6 +49,7 @@ pypi-boolean.py
 pypi-booleanoperations
 pypi-build
 pypi-cachetools
+pypi-cattrs
 pypi-cffsubr
 pypi-check_jsonschema
 pypi-check_manifest
@@ -78,11 +78,13 @@ pypi-elementpath
 pypi-enrich
 pypi-execnet
 pypi-executing
+pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
 pypi-fixtures
 pypi-flake8_docstrings
+pypi-flake8_isort
 pypi-flask
 pypi-flit
 pypi-fontmath
@@ -115,7 +117,6 @@ pypi-jaraco.functools
 pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
-pypi-josepy
 pypi-jsonpickle
 pypi-jupyter_cache
 pypi-khal
@@ -126,6 +127,7 @@ pypi-libarchive_c
 pypi-license_expression
 pypi-linkchecker
 pypi-linkify_it_py
+pypi-looseversion
 pypi-lz4
 pypi-macholib
 pypi-mako
@@ -168,6 +170,7 @@ pypi-pure_eval
 pypi-pybtex
 pypi-pydot_ng
 pypi-pygithub
+pypi-pygments
 pypi-pyjwt
 pypi-pynacl
 pypi-pynsist
@@ -201,7 +204,6 @@ pypi-selectors34
 pypi-selinux
 pypi-semantic_version
 pypi-sentinels
-pypi-seqdiag
 pypi-sh
 pypi-sphinx
 pypi-sphinx_ansible_theme

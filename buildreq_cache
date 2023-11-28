@@ -1,12 +1,10 @@
-4.11.3
+4.11.4
 pypi(cachetools)
 pypi(chardet)
 pypi(colorama)
 pypi(devpi_process)
 pypi(distlib)
 pypi(filelock)
-pypi(iniconfig)
 pypi(pyproject_api)
-pypi(setuptools_scm)
 pypi(virtualenv)
 pypi-pytest
