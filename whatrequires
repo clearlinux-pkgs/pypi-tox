@@ -71,6 +71,7 @@ pypi-devpi_common
 pypi-devpi_process
 pypi-devpi_server
 pypi-dill
+pypi-distlib
 pypi-django
 pypi-django_compressor
 pypi-docutils
