@@ -1,2 +1,5 @@
 # This file contains build requirements that get picked up but are
 # undesirable. One entry per line, no whitespace.
+pypi(distlib (from /builddir/build/build/tox_4.13.0/tests/conftest.py))
+pypi(filelock (from /builddir/build/build/tox_4.13.0/tests/conftest.py))
+pypi(virtualenv (from /builddir/build/build/tox_4.13.0/tests/conftest.py))

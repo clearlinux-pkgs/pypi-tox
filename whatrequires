@@ -38,6 +38,7 @@ pypi-atpublic
 pypi-attr
 pypi-attrs
 pypi-automat
+pypi-awxkit
 pypi-bcrypt
 pypi-beartype
 pypi-black
@@ -157,6 +158,7 @@ pypi-pastedeploy
 pypi-pathspec
 pypi-patsy
 pypi-pdm
+pypi-ped
 pypi-pep517
 pypi-perl
 pypi-persistent
@@ -172,6 +174,7 @@ pypi-prettytable
 pypi-pure_eval
 pypi-pybtex
 pypi-pydot_ng
+pypi-pyfakefs
 pypi-pygithub
 pypi-pygments
 pypi-pyjwt
@@ -211,6 +214,7 @@ pypi-sh
 pypi-sphinx
 pypi-sphinx_ansible_theme
 pypi-sphinx_design
+pypi-sphinx_issues
 pypi-sphinxcontrib_applehelp
 pypi-sphinxcontrib_devhelp
 pypi-sphinxcontrib_htmlhelp
