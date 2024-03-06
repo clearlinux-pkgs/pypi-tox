@@ -254,7 +254,6 @@ pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
-pypi-wcmatch
 pypi-wcwidth
 pypi-webob
 pypi-werkzeug
