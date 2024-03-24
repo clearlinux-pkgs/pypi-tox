@@ -1,5 +1,5 @@
 PKG_NAME := pypi-tox
-URL = https://files.pythonhosted.org/packages/d4/30/bfba7e577ee7054b1d6112803db1435127c6a682f403ef693c1a49f9b8e1/tox-4.14.1.tar.gz
+URL = https://files.pythonhosted.org/packages/8f/e2/98cbdadaa14d53b0f37ffcf4cbb1652ffb21f8b2f300e43f17167136af1c/tox-4.14.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

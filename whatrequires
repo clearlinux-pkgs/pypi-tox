@@ -33,6 +33,7 @@ pypi-appdirs
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-arrow
+pypi-asgiref
 pypi-asttokens
 pypi-atpublic
 pypi-attr
