@@ -150,6 +150,7 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
 pypi-ovirt_imageio
@@ -183,7 +184,6 @@ pypi-pynsist
 pypi-pyopenssl
 pypi-pyperf
 pypi-pyproject_api
-pypi-pyproject_hooks
 pypi-pyramid
 pypi-pytest_asyncio
 pypi-pytest_cov
