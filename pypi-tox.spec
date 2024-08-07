@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-tox
-Version  : 4.17.0
-Release  : 219
-URL      : https://files.pythonhosted.org/packages/9a/41/287d083a3b430ca9f7590f867d3899de4ed6638e6ae8006c9775d412ca24/tox-4.17.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/9a/41/287d083a3b430ca9f7590f867d3899de4ed6638e6ae8006c9775d412ca24/tox-4.17.0.tar.gz
+Version  : 4.17.1
+Release  : 220
+URL      : https://files.pythonhosted.org/packages/55/28/a426845ea686fdb2d9f981293127821abbbc9cdd94bb301b4441912e64b3/tox-4.17.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/55/28/a426845ea686fdb2d9f981293127821abbbc9cdd94bb301b4441912e64b3/tox-4.17.1.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
 Group    : Development/Tools
 License  : MIT
@@ -81,10 +81,10 @@ python3 components for the pypi-tox package.
 
 
 %prep
-%setup -q -n tox-4.17.0
-cd %{_builddir}/tox-4.17.0
+%setup -q -n tox-4.17.1
+cd %{_builddir}/tox-4.17.1
 pushd ..
-cp -a tox-4.17.0 buildavx2
+cp -a tox-4.17.1 buildavx2
 popd
 
 %build
@@ -92,7 +92,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1722902018
+export SOURCE_DATE_EPOCH=1723072103
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
