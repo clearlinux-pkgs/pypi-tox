@@ -154,6 +154,7 @@ pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
 pypi-ovirt_imageio
+pypi-paginate
 pypi-passlib
 pypi-paste
 pypi-pastedeploy
