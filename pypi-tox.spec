@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-tox
-Version  : 4.19.0
-Release  : 223
-URL      : https://files.pythonhosted.org/packages/d8/f5/bcb4b151c374d7d8c04b24084374f2f6dace0bc988e6a87e3271227e54ec/tox-4.19.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d8/f5/bcb4b151c374d7d8c04b24084374f2f6dace0bc988e6a87e3271227e54ec/tox-4.19.0.tar.gz
+Version  : 4.20.0
+Release  : 224
+URL      : https://files.pythonhosted.org/packages/04/4a/55f9dba99aad874ae54a7fb2310c940e978fd0155eb3576ddebec000fca7/tox-4.20.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/04/4a/55f9dba99aad874ae54a7fb2310c940e978fd0155eb3576ddebec000fca7/tox-4.20.0.tar.gz
 Summary  : tox is a generic virtualenv management and test command line tool
 Group    : Development/Tools
 License  : MIT
@@ -33,7 +33,7 @@ versions](https://img.shields.io/pypi/pyversions/tox.svg)](https://pypi.org/proj
 [![Downloads](https://static.pepy.tech/badge/tox/month)](https://pepy.tech/project/tox)
 [![Documentation
 status](https://readthedocs.org/projects/tox/badge/?version=latest)](https://tox.readthedocs.io/en/latest/?badge=latest)
-[![check](https://github.com/tox-dev/tox/actions/workflows/check.yml/badge.svg)](https://github.com/tox-dev/tox/actions/workflows/check.yml)
+[![check](https://github.com/tox-dev/tox/actions/workflows/check.yaml/badge.svg)](https://github.com/tox-dev/tox/actions/workflows/check.yaml)
 
 %package bin
 Summary: bin components for the pypi-tox package.
@@ -81,10 +81,10 @@ python3 components for the pypi-tox package.
 
 
 %prep
-%setup -q -n tox-4.19.0
-cd %{_builddir}/tox-4.19.0
+%setup -q -n tox-4.20.0
+cd %{_builddir}/tox-4.20.0
 pushd ..
-cp -a tox-4.19.0 buildavx2
+cp -a tox-4.20.0 buildavx2
 popd
 
 %build
@@ -92,7 +92,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1726672229
+export SOURCE_DATE_EPOCH=1726759818
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
