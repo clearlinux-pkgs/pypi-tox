@@ -93,6 +93,7 @@ pypi-flit
 pypi-fontmath
 pypi-freetype_py
 pypi-freezegun
+pypi-ftfy
 pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
