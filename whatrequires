@@ -39,7 +39,6 @@ pypi-attr
 pypi-attrs
 pypi-automat
 pypi-awxkit
-pypi-bcrypt
 pypi-beartype
 pypi-black
 pypi-bleach
@@ -85,7 +84,6 @@ pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
-pypi-fixtures
 pypi-flake8_docstrings
 pypi-flake8_isort
 pypi-flask
@@ -100,14 +98,11 @@ pypi-gql
 pypi-graphql_core
 pypi-graphviz
 pypi-greenlet
-pypi-h2
 pypi-h5py
 pypi-hatch_fancy_pypi_readme
-pypi-hpack
 pypi-html5lib
 pypi-humanize
 pypi-hupper
-pypi-hyperframe
 pypi-hyperlink
 pypi-ijson
 pypi-importlib_metadata
@@ -165,7 +160,6 @@ pypi-pep517
 pypi-perl
 pypi-persistent
 pypi-pip_tools
-pypi-pipdeptree
 pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
@@ -238,6 +232,7 @@ pypi-twine
 pypi-typing_extensions
 pypi-tzdata
 pypi-ua_parser
+pypi-ua_parser_builtins
 pypi-uc_micro_py
 pypi-ufolib2
 pypi-uharfbuzz
@@ -248,6 +243,7 @@ pypi-urwid
 pypi-userpath
 pypi-venusian
 pypi-versioneer
+pypi-versioningit
 pypi-waitress
 pypi-watchdog
 pypi-wcwidth
