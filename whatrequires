@@ -16,7 +16,6 @@ koji
 lib4sbom
 libvirt-python
 mod_wsgi
-multiprocess
 mypy
 nose-parameterized
 pathos
@@ -55,7 +54,6 @@ pypi-check_jsonschema
 pypi-check_manifest
 pypi-cheetah3
 pypi-cheroot
-pypi-click
 pypi-click_help_colors
 pypi-columnize
 pypi-compreffor
@@ -88,7 +86,6 @@ pypi-filelock
 pypi-fixtures
 pypi-flake8_docstrings
 pypi-flake8_isort
-pypi-flask
 pypi-flit
 pypi-fontmath
 pypi-freetype_py
@@ -98,7 +95,6 @@ pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
 pypi-graphql_core
-pypi-graphviz
 pypi-greenlet
 pypi-h5py
 pypi-hatch_fancy_pypi_readme
@@ -139,6 +135,7 @@ pypi-modulegraph
 pypi-molecule
 pypi-molecule_docker
 pypi-more_itertools
+pypi-multiprocess
 pypi-munch
 pypi-mypy_extensions
 pypi-myst_nb
