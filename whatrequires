@@ -23,6 +23,7 @@ pox
 ppft
 pynvim
 pypi-aiofiles
+pypi-aiosignal
 pypi-aiosmtpd
 pypi-altgraph
 pypi-ansi2html
@@ -178,6 +179,7 @@ pypi-pyopenssl
 pypi-pyperf
 pypi-pyproject_api
 pypi-pyramid
+pypi-pyroma
 pypi-pytest_asyncio
 pypi-pytest_cov
 pypi-pytest_forked
